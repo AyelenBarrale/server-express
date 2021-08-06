@@ -1,0 +1,20 @@
+{
+  "name": "entrega-3-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./src/express.js",
+    "express": "nodemon --inspect ./src/express.js",
+    "http": "nodemon --inspect ./src/express.js"
+  },
+  "author": "Ayelen Barrale",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
